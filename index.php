@@ -17,7 +17,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Polo Adidas</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a class="btn btn-primary" id="btn_pagar">Comprar</a>
+                        <a class="btn btn-primary" id="btn_pagar1">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Polo Adidas</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a class="btn btn-primary" id="btn_pagar">Comprar</a>
+                        <a class="btn btn-primary" id="btn_pagar2">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Polo Adidas</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a class="btn btn-primary" id="btn_pagar">Comprar</a>
+                        <a class="btn btn-primary" id="btn_pagar3">Comprar</a>
                     </div>
                 </div>
             </div>
@@ -67,9 +67,21 @@
             },
         });
       
-        const btn_pagar = document.getElementById('btn_pagar');
+        const btn_pagar1 = document.getElementById('btn_pagar1');
+        const btn_pagar2 = document.getElementById('btn_pagar2');
+        const btn_pagar3 = document.getElementById('btn_pagar3');
       
-        btn_pagar.addEventListener('click', function (e) {
+        btn_pagar1.addEventListener('click', function (e) {
+            Culqi.open();
+            e.preventDefault();
+        });
+
+        btn_pagar2.addEventListener('click', function (e) {
+            Culqi.open();
+            e.preventDefault();
+        });
+
+        btn_pagar3.addEventListener('click', function (e) {
             Culqi.open();
             e.preventDefault();
         });
